@@ -1,0 +1,115 @@
+.slick-dots li button:before {
+    font-family: slick;
+    font-size: 13px !important;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .1 !important;
+    color: #000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75 !important;
+    color: #f08300 !important;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 10px !important;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 46px !important;
+}
+.slick-dots {
+    position: absolute;
+    bottom: -30px !important;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    
+}
+
+.slick-arrow:before{
+    content:""!important;
+    width: 100%!important;
+    height: 100%!important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100000000 !important;
+  }
+
+  .slick-next:before{
+    background: url(../img/top/arrow_r.svg)!important;
+    background-size: contain!important;
+    width:15.8px !important;
+    height:31.6px !important;
+    background-repeat: no-repeat  !important;
+    
+  }
+
+  .slick-prev:before{
+    background: url(../img/top/arrow_l.svg)!important;
+    background-size: contain!important;
+    width:15.8px !important;
+    height:31.6px !important;
+    background-repeat: no-repeat !important;
+  }
+
+  .slick-prev {
+    left: -50px  !important;
+}
+  .slick-next {
+    right: -50px  !important;
+}
+
+
+@media screen and (min-width:768px) {
+    .slick-dotted.slick-slider {
+        margin-bottom: 102px !important;
+    }
+
+    @media screen and (max-width:1040px) {
+        .slick-dots {
+            
+            top:125% !important;
+        }
+    }
+
+    .slick-dots {
+        position: absolute;
+        bottom: -30px !important;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+        top:170px ;
+    }
+
+
+    .about__ttl__img {
+        width: 179px;
+        margin: 0 auto;
+        margin-bottom: 23.5px;
+    }
+}
+
+
