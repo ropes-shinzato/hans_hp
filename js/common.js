@@ -86,3 +86,23 @@ $(function () {
 
     });
 });
+
+/* back-to-top */
+$(function() {
+    var w = $(window).width();
+    $(window).on('scroll', function() {
+        var now = $(window).scrollTop();
+        if (now > 600) {
+            $('.back-to-top__btn').fadeIn('fast');
+        } else {
+            $('.tback-to-top__btn').fadeOut('fast');
+        }
+    });
+
+    $('.back-to-top__btn').on('click', function() {
+        $('html,body').animate({
+            scrollTop: 0
+        }, 'fast');
+    });
+
+});

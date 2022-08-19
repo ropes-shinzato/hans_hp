@@ -580,49 +580,5 @@ body {
         margin-top: 45px;
     }
 
-    .footer__sns {
-        display: flex;
-        justify-content: center;
-        margin: 59px 0;
-    }
-
-    .footer__sns li:not(:last-child) {
-        margin-right: 48px;
-    }
-    .footer__sns li {
-        width: auto;
-        max-width:266.6px;
-    }
-
-    .footer__nav__wrap {
-        background-color: #1a1a1a;
-        padding: 43px 19px 13.5px 19px;
-        
-    }
-
-    .footer__nav__list {
-        display: flex;
-        flex-wrap: nowrap;
-        max-width:917px;
-        margin: 0 auto;
-    }
-    .footer__nav__list li {
-        width: auto;
-        margin-bottom: 20px;
-        font-size: 14px;
-        line-height: 1.2;
-        text-indent: -1.3rem;
-        padding-left:1.3rem
-    }
-
-    .footer__nav__list li:nth-child(3) {
-        width: auto;
-    }
-
-    .footer__nav__list li:nth-last-child(-n+2) {
-        width: auto;
-    }
-    .footer__nav__list li:not(:last-child){
-        margin-right: 3.2%;
-    }
+   
 }

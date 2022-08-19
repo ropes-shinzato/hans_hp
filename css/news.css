@@ -78,11 +78,7 @@
     margin-top: 28px;
 }
 
-.news__btn {
-    width: 185.4px;
-    background-color: #b60005;
-    padding: 11px 0;
-}
+
 
 @media screen and (min-width:768px) {
 .topix__wrap {
@@ -126,7 +122,5 @@
         padding:0;
     }
 
-    .news__btn__wrap {
-        margin-top: 45px;
-    }
+    
 }
