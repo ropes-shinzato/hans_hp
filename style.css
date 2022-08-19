@@ -377,6 +377,24 @@ body.is_menu_open #js_black_bg {
     left: 0;
     bottom: -19.1px;
     z-index: 100;
+    width:335px;
+    text-align: center;
+}
+
+.lower__mv__ttl img{
+   
+}
+
+.under__shadow {
+    width: 250px;
+    margin: 0 auto;
+    background-color: red;
+    height: 17px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    box-shadow: 0px 10px 10px -5px rgb(0 0 0 / 42%);
+    bottom: -15px;
 }
 
 
@@ -551,6 +569,12 @@ body.is_menu_open #js_black_bg {
         margin-top: 9px;
     }
 
+    .under__shadow {
+        width: 376px;
+
+        bottom: -22px;
+    }
+
     .top__send {
         display: flex;
         align-items: center;
@@ -576,6 +600,7 @@ body.is_menu_open #js_black_bg {
 
         bottom: -25.1px;
         z-index: 100;
+        width: 578.8px;
     }
 
     @media screen and (max-width:1040px) {

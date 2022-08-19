@@ -1,0 +1,259 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.mv__store-list__ttl {}
+
+.mv__store-list__ttl img {
+    width: 272.6px;
+    margin: 0 auto;
+}
+
+.store-list__under__shadow {}
+
+.store-list__wrap {
+    margin-top: 50px;
+}
+
+.store-list {}
+
+.store01 {}
+
+.store__ttl {
+    font-size: 25px;
+    margin: 0 19px;
+}
+
+.store__ttl span {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.store01__ttl__line {
+    display: none;
+}
+
+.store01__ttl {
+    margin: 0 19px;
+}
+
+
+.store__info__wrap {}
+
+.store__img__wrap {
+    display: flex;
+    margin: 0 19px;
+    margin-top: 16px;
+
+}
+
+.store__img01 {
+    margin-right: 4.5%;
+}
+
+.store__img02 {}
+
+.store__map {
+    width: 100%;
+    padding-top: 58.2%;
+    position: relative;
+    margin-top: 18.5px;
+    margin-bottom: 19px;
+}
+
+.store__map iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.store__info__icon-detail__wrap {
+    margin: 0 19px;
+
+}
+
+.store__info__icon__list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 82.3%;
+    margin-bottom: 15.8px;
+}
+
+.store__info__icon__list li {
+    width: 22%;
+}
+
+.store__info__icon__list li:not(:nth-child(4n)) {
+    margin-right: 4%;
+}
+
+.store__info__icon__list li:not(:nth-last-child(-n+4)) {
+    margin-bottom: 10px;
+}
+
+.store__detail__address {
+    margin-bottom: 8.5px;
+}
+
+.store__detail__list li {
+    display: flex;
+    align-items: center;
+}
+
+.store__detail__list li:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.store__detail__list__dt {
+    font-size: 12px;
+    background-color: #f08300;
+    padding: 3.5px;
+    text-align: center;
+    width: 59.5px;
+    border-radius: 6px;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.store__detail__list__info {}
+
+.store__tel {
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.store__menu__btn__wrap {}
+
+.store__menu__btn__wrap a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.store__menu__btn {
+    font-size: 18px;
+    background-color: #b60005;
+    padding: 12px;
+    text-align: center;
+    width: 214.6px;
+    margin: 0 auto;
+    margin-top: 15.5px;
+}
+
+@media screen and (min-width:768px) {
+    .mv__store-list__ttl img {
+        width: 454.3px;
+    }
+
+    .store-list__wrap {
+        
+        max-width: 900px;
+        margin: 0 auto;
+
+        margin-top: 107px;
+    }
+
+    .store-list li {
+        
+    }
+    .store-list >li:not(:last-child) {
+        margin-bottom: 60px;
+
+    }
+
+    .store__ttl {
+        font-size: 30px;
+        margin: 0 auto;
+        max-width: 900px;
+        text-align: center;
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+        /*         justify-content:space-between;
+ */
+       
+    }
+
+    .store01__ttl__line {
+        display: block;
+        width:100%;
+    }
+   
+
+    .store01 .line__r {
+        margin-right: 35px;
+    }
+
+    .store01 .line__l {
+        margin-left: 17px;
+    }
+    .store02 .line__r {
+        margin-right: 60px;
+    }
+
+    .store02 .line__l {
+        margin-left:60px;
+    }
+
+    .store__info__wrap {
+        display: flex;
+        margin-top: 23.5px;
+    }
+    .store__img__wrap {
+        display: block;
+        margin: 0;
+        margin-top: 0;
+        order: 2;
+        width:21.6%;
+        margin-right: 2.2%;
+    }
+
+    .store__map {
+        width: 39.6%;
+        padding-top: 39.6%;
+       
+        margin-top: 0;
+        margin-bottom:0;
+
+        order: 1;
+        margin-right: 0.9%;
+    }
+
+    .store__info__icon-detail__wrap {
+        margin: 0;
+        order: 3;
+        width: 35%;
+    }
+
+    .store__img01 {
+        margin-right:0;
+        margin-bottom:4.1%;
+    }
+
+    .store__detail__address-detail__list__wrap{
+        height: 59%;
+    display: flex;
+    align-items: flex-end;
+    }
+
+    .store__info__icon__list {
+        
+        width: 90.3%;
+        margin-bottom: 15px;
+    }
+
+    .store__info__icon__list li {
+        width: 21.2%;
+    }
+
+    .store__menu__btn {
+        font-size: 18px;
+        background-color: #b60005;
+        padding: 14.5px;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 15.5px;
+    }
+}
