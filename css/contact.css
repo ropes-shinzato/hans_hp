@@ -1,0 +1,296 @@
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.mv__company__ttl img{
+    width:124.5px;
+
+}
+.contact {
+    margin: 0 19px;
+    margin-top: 48px;
+}
+
+.contact__ttl {
+    text-align: center;
+    
+
+}
+
+.contact__txt {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+    
+}
+
+/*  */
+.input__area {
+    margin-top: 26px;
+}
+
+.ttl-input__wrap {}
+
+.ttl-input__wrap .kome {
+    font-size: 10px;
+    color: red;
+    font-weight: bold;
+    position: relative;
+    top: -3px;
+}
+
+.ttl__wrap {
+    margin-bottom: 8px;
+}
+
+.input__wrap {}
+
+.ttl__wrap {}
+
+
+
+.input__wrap {}
+
+.contct-item {
+    margin-top: 5px;
+
+}
+
+.contct-item .ttl__wrap{
+    margin-bottom:19px;
+}
+
+
+.contact-contents {
+    margin-top: 37px;
+}
+
+
+
+.input__wrap input {
+   /*  background-color: #f2f2f2; */
+    margin-bottom: 20px;
+    height: 38.8px;
+    width: 100%;
+    background-color:  #f2f2f2;
+
+
+}
+
+.post-code input {
+    width: 118px;
+    margin-bottom: 10px;
+}
+
+.address {}
+
+
+
+textarea {
+    /* background-color: #f2f2f2; */
+    width: 100%;
+    height: 200px;
+    border: 1px solid #ccc;
+
+}
+
+.one {
+    position: relative;
+    display: block;
+    padding-left: 20px;
+    cursor: pointer;
+    user-select: none;
+    margin-bottom: 19px;
+    line-height: 1.4;
+}
+
+.one input {
+    display: none;
+}
+
+.two {
+    position: absolute;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    border: solid 1px black;
+    border-radius: 50%;
+    box-sizing: border-box;
+    top: 0;
+    margin-top: 2px;
+}
+
+.two:after {
+    content: "";
+    position: absolute;
+    background: black;
+    border-radius: 50%;
+    top: 2px;
+    bottom: 2px;
+    left: 2px;
+    right: 2px;
+    opacity: 0;
+}
+
+.one input:checked+.two:after {
+    opacity: 1;
+}
+
+.send {
+    text-align: center;
+    margin-top: 24px;
+    line-height: 1.4;
+}
+
+.send__txt {}
+
+.send .send__txt >a {
+
+    text-decoration: underline;
+    color: #e50012;
+
+}
+
+.send__txt__check {}
+
+
+
+.entry__btn {
+    text-align:center;
+    font-size: 14px;
+    background-color: #b60005;
+    width: 203px;
+   padding:11px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+   
+
+    margin-top: 10px;
+    cursor: pointer;
+    margin-bottom: 29px;
+}
+
+ .entry__btn a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* .entry__btn:hover{
+    background-color: #dde1ec;
+}
+
+.entry__btn:hover a{
+    color: #243c82;
+} */
+.entry__btn:disabled {
+    background-color: #CCCCCC;
+    color: #fff;
+    cursor: auto;
+}
+@media screen and (min-width:768px) {
+    .mv__company__ttl{
+width: 378.8px;
+    }
+
+    .mv__company__ttl img{
+        width:207.5px;
+    
+    }
+
+    .contact {
+        margin: 0;
+        margin-top: 70px;
+    }
+
+    .contact__txt {
+        font-size: 20px;
+       
+        margin-top: 20px;
+        margin-bottom: 55px;
+    }
+    .input__area {
+        max-width:900px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .ttl-input__wrap {
+        display: flex;
+    }
+
+    .ttl__wrap {
+        width: 22.7%;
+        margin-right: 1.5%;
+        background-color: #fdefdd;
+        height: 38.8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .input__wrap {
+        width: 78.8%;
+        
+    }
+
+    .address {
+        width: 100%;
+        width: 76.4%;
+        margin-right: 0;
+        margin-left: auto;
+    }
+
+    .input__wrap input {
+        background-color: #fff;
+        margin-bottom: 33px;
+        height: 38.8px;
+        width: 100%;
+        border: 1px solid #a4a4a4;
+    }
+
+    textarea {
+        background-color: #fff;
+        border: 1px solid #a4a4a4;
+
+    }
+
+    .post-code input {
+        width: 168px;
+        margin-bottom: 18.5px;
+    }
+
+    .send {
+        text-align: center;
+        margin-top: 62px;
+        line-height: 1.4;
+    }
+
+    .send__btn__wrap {
+        background-color: #ff02ae;
+        width: 232px;
+        height: 43.5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        position: relative;
+        margin-top: 21px;
+        margin-bottom: 52px;
+    }
+
+    .ttl-input__wrap .tel__input__wrap input{
+        width:30%; 
+    }
+
+    .entry__btn {
+        margin-bottom:88px;
+        margin-top:23px;
+    }
+
+    .input__margin{
+        margin-top:10px;
+    }
+
+}

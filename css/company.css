@@ -1,0 +1,121 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.mv__company__ttl {}
+.mv__company__ttl img {
+    width:250.377px;
+}
+
+.company {
+    margin:47px 19px 0 19px;
+}
+
+.company__ttl {
+    font-size:25px;
+    text-align:center;
+    margin-bottom:23.4px;
+}
+
+.company__list__wrap {}
+
+.company__list {}
+.company__list li:not(:last-child) {
+    background-image: linear-gradient(to right, #000, #000 1px, transparent 1px, transparent 8px);
+    background-size: 4px 1px;
+    background-position: left bottom;
+    background-repeat: repeat-x;
+    padding-bottom:12.5px;
+    margin-bottom:12.5px;
+}
+
+.company__list__dt {
+    font-size: 18px;
+    height:24.9px;
+    border-left: 4px solid #f08300;
+    padding-top:2px;
+    padding-left: 3px;
+
+}
+
+.company__list__info {
+    margin-top: 4px;
+    font-size: 18px;
+    text-indent: 0.4rem;
+    line-height:1.2;
+}
+
+.history {
+    margin-top:51px;
+}
+
+.history__ttl {
+    font-size: 25px;
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+
+    .mv__company__ttl img {
+        width: 417.3px;
+    }
+    .company {
+        margin: 114px auto 0 auto;
+        max-width:900px;
+    }
+
+    .company__ttl {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    .company__list li {
+        display: flex;
+        align-items: center;
+       
+    }
+    .company__list li:not(:last-child) {
+        background-image: linear-gradient(to right, #000, #000 1px, transparent 1px, transparent 8px);
+        background-size: 4px 1px;
+        background-position: left bottom;
+        background-repeat: repeat-x;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        position:relative;
+        z-index: 10000;
+    }
+
+    .company__list__dt {
+        font-size: 18px;
+        height: auto;
+        border-left: none;
+        padding-top: 0;
+        padding-left: 0;
+        line-height: 1.2;
+
+        background-color: #fdefdd;
+        padding: 22px;
+        width:152px;
+        text-align: center;
+        position: relative;
+
+    }
+
+    .company__list li:not(:last-child) .company__list__dt{
+        background-image: linear-gradient(to right, #000, #000 1px, transparent 1px, transparent 8px);
+        background-size: 4px 1px;
+        background-position: left bottom;
+        background-repeat: repeat-x;
+    }
+    .company__list__info {
+        margin-top: 0;
+        font-size: 18px;
+        text-indent: 0;
+        line-height: 1.2;
+        margin-left: 26px;
+    }
+
+    .history {
+        margin-top: 76px;
+    }
+}

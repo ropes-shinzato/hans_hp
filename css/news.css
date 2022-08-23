@@ -1,8 +1,12 @@
+.mv__news__ttl img {
+    width: 77px;
+}
+
 .topix__wrap {
-    background-image: linear-gradient(-45deg, #ffead0 25%, #fdefdd 25%, #fdefdd 50%, #ffead0 50%, #ffead0 75%, #fdefdd 75%, #fdefdd 100%);
-    background-size: 40px 40px;
-    padding-top: 33px;
-    padding-bottom:23.7px;
+    /*  background-image: linear-gradient(-45deg, #ffead0 25%, #fdefdd 25%, #fdefdd 50%, #ffead0 50%, #ffead0 75%, #fdefdd 75%, #fdefdd 100%);
+    background-size: 40px 40px; */
+    padding-top: 57.7px;
+    padding-bottom: 23.7px;
 }
 
 .topix {
@@ -71,24 +75,81 @@
 
 .event__ttl {
     background-color: #f7931e;
-   
+
 }
 
-.news__btn__wrap {
+/* .news__btn__wrap {
     margin-top: 28px;
+} */
+
+.send__num__btn {
+    margin-top:30px;
 }
+
+.num__btn__list {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.num__btn__list li:not(:last-child) {
+    font-size:14px;
+   
+    border:1px solid #b3b3b3;
+
+margin-right: 11px;
+}
+.num__btn__list li:not(:last-child) a{
+    text-decoration: none;
+    color: #b3b3b3;
+    width:29.5px;
+    height:29.5px;
+    justify-content: center;
+align-items: center;
+display: flex;
+}
+
+.num__btn__list li:last-child{
+    width:7px;
+}
+
+.num__btn__list .active{
+background-color: #b60005;
+border:1px solid #b60005;
+}
+.send__num__btn .num__btn__list .active a{
+    color: #fff;
+}
+
+
+
+
+
 
 
 
 @media screen and (min-width:768px) {
-.topix__wrap {
-    background-image: linear-gradient(-45deg, #ffead0 25%, #fdefdd 25%, #fdefdd 50%, #ffead0 50%, #ffead0 75%, #fdefdd 75%, #fdefdd 100%);
-    background-size: 100px 100px;
-    padding-top: 45.5px;
-    padding-bottom: 36px;
-}
 
-   
+    .mv__news__ttl{
+        width:378.8px;
+    }
+
+    .mv__news__ttl img {
+        width: 109.4px;
+    }
+
+    .under__shadow {
+        width: 304px;
+        
+    }
+    .topix__wrap {
+        /* background-image: linear-gradient(-45deg, #ffead0 25%, #fdefdd 25%, #fdefdd 50%, #ffead0 50%, #ffead0 75%, #fdefdd 75%, #fdefdd 100%);
+    background-size: 100px 100px; */
+        padding-top: 110px;
+        padding-bottom: 36px;
+    }
+
+
 
     .topix {
         /* display: flex; */
@@ -104,7 +165,7 @@
     }
 
     .topix__sub__ttl {
-        
+
         margin-top: 22px;
     }
 
@@ -119,8 +180,12 @@
     .topix__txt {
 
         margin-left: 15px;
-        padding:0;
+        padding: 0;
     }
 
-    
+    .send__num__btn {
+        margin-top: 41px;
+    }
+
+
 }

@@ -179,10 +179,20 @@ body {
     margin: 0 auto;
 }
 
+.hans__top__img-info__wrap .hans__top__info__btn__wrap a:hover{
+    color:#b60005;
+}
+
 .hans__info__btn {
     background-color: #b60005;
     width: 185.4px;
     padding: 11px 0;
+}
+
+.hans__info__btn:hover{
+    border: 1px solid #b60005;
+    padding: 10px 0;
+    background-color: #fff;
 }
 
 .hans__img__list__wrap {}
@@ -227,13 +237,27 @@ body {
     line-height: 1.2;
 }
 
-.hans__img__list__btn__wrap {}
+.hans__img__list__btn__wrap {
+    width: 112.8px;
+    margin: 0 auto;
+}
 
 .hans__img__list__btn {
-    width: 112.8px;
+    
     background-color: #b60005;
     padding: 8.5px;
     /* margin-top: 19px; */
+}
+.hans__img__list__btn:hover {
+   
+    background-color: #fff;
+    padding: 7.5px;
+    border: 1px solid #b60005;
+    /* margin-top: 19px; */
+}
+
+.hans__img__list .hans__img__list__btn__wrap a:hover{
+    color:#b60005;
 }
 
 
@@ -314,13 +338,24 @@ body {
 }
 
 .news__btn__wrap {
+    width: 185.4px;
+    margin: 0 auto;
     margin-top: 28px;
 }
 
 .news__btn {
-    width: 185.4px;
+    
     background-color: #b60005;
     padding: 11px 0;
+}
+.news__btn:hover {
+    background-color: #fff;
+    border:1px solid #b60005;
+    padding: 10px 0;
+}
+
+.topix .news__btn__wrap a:hover{
+    color: #b60005;
 }
 
 
@@ -406,6 +441,28 @@ body {
     right:0;
     
     
+}
+
+@media screen and (max-width:1200px) {
+    .about__img01 {
+        width: 62%;
+        margin-right: 0;
+        width: 162px;
+        position: absolute;
+        top: -181px;
+        left:3%;
+    }
+    .about__img02 {
+        width: 62%;
+        margin-right: 0;
+        width: 158px;
+        position: absolute;
+        top: 143px;
+        right:0;
+        
+        
+    }
+
 }
 
 .about__btn {
@@ -528,10 +585,11 @@ body {
     
 }
 
-.hans__img__list__btn {
-    width:185.4px;
-    
+.hans__img__list__btn__wrap {
+    width:185.4px; 
 }
+
+
 
 
 

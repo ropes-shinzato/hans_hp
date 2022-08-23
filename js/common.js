@@ -106,3 +106,17 @@ $(function() {
     });
 
 });
+
+
+
+$(function() {
+    $('.entry__btn').prop('disabled', true);
+
+    $('#agreeCheck').on('click', function() {
+        if ($(this).prop('checked') == false) {
+            $('.entry__btn').prop('disabled', true);
+        } else {
+            $('.entry__btn').prop('disabled', false);
+        }
+    });
+});

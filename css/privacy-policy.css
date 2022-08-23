@@ -1,0 +1,52 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.privacy-policy {
+    margin: 49px 19px 0 19px;
+
+}
+
+.mv__privacy-policy__ttl img {
+    width:279.6px;
+}
+
+.privacy-policy__top__txt {
+    line-height: 1.5;
+    margin-bottom: 33px;
+}
+
+.privacy-policy__list {}
+.privacy-policy__list li {
+}
+.privacy-policy__list li:not(:last-child) {
+    margin-bottom:33px;
+}
+
+.privacy-policy__ttl {
+    font-size: 20px;
+    margin-bottom:9px;
+    line-height: 1.2;
+}
+
+.privacy-policy__txt {
+    line-height: 1.5;
+}
+
+@media screen and (min-width:768px) {
+
+    .mv__privacy-policy__ttl img {
+        width: 366px;
+    }
+    .privacy-policy {
+        margin: 102px auto 0 auto;
+        max-width: 900px;
+    }
+
+    .privacy-policy__ttl {
+        font-size: 22px;
+        margin-bottom: 9px;
+        line-height: 1.2;
+    }
+
+}
