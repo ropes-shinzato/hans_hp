@@ -94,19 +94,12 @@ body {
 
 .store__detail__address {
     margin-bottom: 8.5px;
-<<<<<<< HEAD
     line-height: 1.2;
-=======
->>>>>>> 5fb80c2992aa260d5649d6d2f9f55f42526e1c50
 }
 
 .store__detail__list li {
     display: flex;
-<<<<<<< HEAD
     align-items: flex-start;
-=======
-    align-items: center;
->>>>>>> 5fb80c2992aa260d5649d6d2f9f55f42526e1c50
 }
 
 .store__detail__list li:not(:last-child) {
@@ -124,13 +117,9 @@ body {
     margin-right: 5px;
 }
 
-<<<<<<< HEAD
 .store__detail__list__info {
     line-height: 1.2;
 }
-=======
-.store__detail__list__info {}
->>>>>>> 5fb80c2992aa260d5649d6d2f9f55f42526e1c50
 
 .store__tel {
     font-size: 26px;
@@ -144,12 +133,9 @@ body {
     text-decoration: none;
     color: #fff;
 }
-<<<<<<< HEAD
 .store__menu__btn__wrap a:hover {
     color: #b60005;
 }
-=======
->>>>>>> 5fb80c2992aa260d5649d6d2f9f55f42526e1c50
 
 .store__menu__btn {
     font-size: 18px;
@@ -160,14 +146,11 @@ body {
     margin: 0 auto;
     margin-top: 15.5px;
 }
-<<<<<<< HEAD
 .store__menu__btn:hover {
     background-color: #fff;
     padding: 11px;
     border:1px solid #b60005;
 }
-=======
->>>>>>> 5fb80c2992aa260d5649d6d2f9f55f42526e1c50
 
 @media screen and (min-width:768px) {
     .mv__store-list__ttl img {
@@ -264,7 +247,6 @@ body {
     display: flex;
     align-items: flex-end;
     }
-<<<<<<< HEAD
     
     @media screen and (max-width:900px) {
         .store__detail__address-detail__list__wrap{
@@ -273,8 +255,6 @@ body {
         }
 
     }
-=======
->>>>>>> 5fb80c2992aa260d5649d6d2f9f55f42526e1c50
 
     .store__info__icon__list {
         
@@ -295,7 +275,6 @@ body {
         margin: 0 auto;
         margin-top: 15.5px;
     }
-<<<<<<< HEAD
     .store__menu__btn:hover {
        
         padding: 13.5px;
@@ -308,6 +287,4 @@ body {
     .s__txt02{
         font-size:13.7px;
     }
-=======
->>>>>>> 5fb80c2992aa260d5649d6d2f9f55f42526e1c50
 }
